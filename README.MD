@@ -32,6 +32,7 @@ Using "/" and some other special chars on the sequence, title, serie and version
 
 Marked lines are lines that contains the value 1 on the second column. If you don't want to download some lines, put 0 on their second column and run the script with the marked option
 (marked option must come after the line selection option).
+
 The script expects all line references to be indexed by 0, but it prints whatever value the first column (sequence) has. To reference lines when indexed by 1, just subtract 1.
 
 ---

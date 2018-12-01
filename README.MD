@@ -1,6 +1,6 @@
 # Playlist Download
 
-This code downloads a playlist assigning the name of the file acording to the columns in a .tsv file.
+This bash script downloads a playlist assigning the name of the file acording to the columns in a .tsv file.
 Considering $n the value of the column n, the name of each downloaded file would be:
 "$1 $3 - $4 $5.mp3"
 (if $5 is empty, it doesn't print the extra space).
